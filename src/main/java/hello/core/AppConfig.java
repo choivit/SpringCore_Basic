@@ -9,7 +9,10 @@ import hello.core.member.MemberServiceImpl;
 import hello.core.member.MemoryMemberRepository;
 import hello.core.order.OrderService;
 import hello.core.order.OrderServiceImpl;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 
+@Configuration
 public class AppConfig {
 
     //AppConfig는 공연기획자와 같은 역할. 구체적인 건 여기서 선택을 해주기. 예)배우캐스팅
@@ -27,21 +30,26 @@ public class AppConfig {
     //하지만 역할과 구현은 또 정확하게 나뉘어야 하기 때문에
     //MemoryMemberRepository()라는 보이지 않기 때문에
 
+    //@Bean(name = "직접설정한 이름")으로 옵션 지정 가능.
+    @Bean
     //memberService 역할
     public MemberService memberService(){
         return new MemberServiceImpl(memberRepository());
     }
 
+    @Bean
     //memberRepository 역할
-    private static MemberRepository memberRepository() {
+    public MemberRepository memberRepository() {
         return new MemoryMemberRepository();
     }
 
+    @Bean
     //memberRepository 역할
     public OrderService orderService(){
         return new OrderServiceImpl(memberRepository(), discountPolicy());
     }
 
+    @Bean
     public DiscountPolicy discountPolicy(){
 //        return new FixDiscountPolicy();
         return new RateDiscountPolicy();

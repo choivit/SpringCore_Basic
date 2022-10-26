@@ -7,6 +7,7 @@
     <list default="true" id="8f69f8f7-41ba-4b8e-8361-73282646f5cd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/MemberApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/MemberApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/OrderApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/OrderApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -155,9 +156,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.OrderApp" />
+        <item itemvalue="Application.MemberApp" />
         <item itemvalue="JUnit.OrderServiceTest.createOrder" />
         <item itemvalue="JUnit.OrderServiceTest" />
-        <item itemvalue="Application.MemberApp" />
         <item itemvalue="JUnit.RateDiscountPolicyTest" />
       </list>
     </recent_temporary>
@@ -171,7 +172,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666586715040</updated>
       <workItem from="1666586716373" duration="12344000" />
-      <workItem from="1666663844734" duration="13017000" />
+      <workItem from="1666663844734" duration="17665000" />
     </task>
     <servers />
   </component>
