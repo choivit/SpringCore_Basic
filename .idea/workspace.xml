@@ -63,7 +63,7 @@
       <recent name="hello.core.discount" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BeanDefinitionTest.findApplicationBean">
+  <component name="RunManager" selected="JUnit.SingletonTest.pureContainer">
     <configuration name="ApplicationContextExtendsFindTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
@@ -75,22 +75,6 @@
       <option name="PACKAGE_NAME" value="hello.core.beanfind" />
       <option name="MAIN_CLASS_NAME" value="hello.core.beanfind.ApplicationContextExtendsFindTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApplicationContextExtendsFindTest.finBeanByParentTypeDuplicate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.core.beanfind.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hello.core.beanfind" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.beanfind.ApplicationContextExtendsFindTest" />
-      <option name="METHOD_NAME" value="finBeanByParentTypeDuplicate" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -127,6 +111,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SingletonTest.pureContainer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.core.singleton" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.singleton.SingletonTest" />
+      <option name="METHOD_NAME" value="pureContainer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="XmlAppContext.xmlAppContext" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
@@ -152,19 +152,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.BeanDefinitionTest.findApplicationBean" />
+      <item itemvalue="JUnit.SingletonTest.pureContainer" />
       <item itemvalue="JUnit.XmlAppContext.xmlAppContext" />
       <item itemvalue="JUnit.ApplicationContextExtendsFindTest" />
-      <item itemvalue="JUnit.ApplicationContextExtendsFindTest.finBeanByParentTypeDuplicate" />
       <item itemvalue="JUnit.ApplicationContextExtendsFindTest.findAllBeanByObjectType" />
       <item itemvalue="Spring Boot.CoreApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SingletonTest.pureContainer" />
         <item itemvalue="JUnit.BeanDefinitionTest.findApplicationBean" />
         <item itemvalue="JUnit.XmlAppContext.xmlAppContext" />
         <item itemvalue="JUnit.ApplicationContextExtendsFindTest.findAllBeanByObjectType" />
         <item itemvalue="JUnit.ApplicationContextExtendsFindTest" />
-        <item itemvalue="JUnit.ApplicationContextExtendsFindTest.finBeanByParentTypeDuplicate" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +179,7 @@
       <workItem from="1666586716373" duration="12344000" />
       <workItem from="1666663844734" duration="19146000" />
       <workItem from="1666764178907" duration="19934000" />
-      <workItem from="1667175631831" duration="5567000" />
+      <workItem from="1667175631831" duration="9146000" />
     </task>
     <servers />
   </component>
