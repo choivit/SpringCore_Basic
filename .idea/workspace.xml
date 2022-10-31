@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f69f8f7-41ba-4b8e-8361-73282646f5cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/beanfind/ApplicationContextExtendsFindTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/appConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/xml/XmlAppContext.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hello/core/beanfind/ApplicationContextSameBeanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hello/core/beanfind/ApplicationContextSameBeanTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +26,7 @@
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -64,7 +65,7 @@
       <recent name="hello.core.discount" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ApplicationContextExtendsFindTest.findAllBeanByObjectType">
+  <component name="RunManager" selected="JUnit.XmlAppContext.xmlAppContext">
     <configuration name="ApplicationContextExtendsFindTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
@@ -128,17 +129,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApplicationContextExtendsFindTest.findAllBeanByParentType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="XmlAppContext.xmlAppContext" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hello.core.beanfind.*" />
+          <option name="PATTERN" value="hello.core.xml.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hello.core.beanfind" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.beanfind.ApplicationContextExtendsFindTest" />
-      <option name="METHOD_NAME" value="findAllBeanByParentType" />
+      <option name="PACKAGE_NAME" value="hello.core.xml" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.xml.XmlAppContext" />
+      <option name="METHOD_NAME" value="xmlAppContext" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -152,20 +153,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.XmlAppContext.xmlAppContext" />
       <item itemvalue="JUnit.ApplicationContextExtendsFindTest" />
       <item itemvalue="JUnit.ApplicationContextExtendsFindTest.finBeanByParentTypeDuplicate" />
       <item itemvalue="JUnit.ApplicationContextExtendsFindTest.finBeanBySubType" />
       <item itemvalue="JUnit.ApplicationContextExtendsFindTest.findAllBeanByObjectType" />
-      <item itemvalue="JUnit.ApplicationContextExtendsFindTest.findAllBeanByParentType" />
       <item itemvalue="Spring Boot.CoreApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.XmlAppContext.xmlAppContext" />
         <item itemvalue="JUnit.ApplicationContextExtendsFindTest.findAllBeanByObjectType" />
         <item itemvalue="JUnit.ApplicationContextExtendsFindTest" />
         <item itemvalue="JUnit.ApplicationContextExtendsFindTest.finBeanByParentTypeDuplicate" />
         <item itemvalue="JUnit.ApplicationContextExtendsFindTest.finBeanBySubType" />
-        <item itemvalue="JUnit.ApplicationContextExtendsFindTest.findAllBeanByParentType" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +180,8 @@
       <updated>1666586715040</updated>
       <workItem from="1666586716373" duration="12344000" />
       <workItem from="1666663844734" duration="19146000" />
-      <workItem from="1666764178907" duration="14666000" />
+      <workItem from="1666764178907" duration="19934000" />
+      <workItem from="1667175631831" duration="599000" />
     </task>
     <servers />
   </component>
