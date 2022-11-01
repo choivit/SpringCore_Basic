@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8f69f8f7-41ba-4b8e-8361-73282646f5cd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/discount/RateDiscountPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/discount/RateDiscountPolicy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/member/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/member/MemberServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/member/MemoryMemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/member/MemoryMemberRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/order/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/order/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/AutoAppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/AutoAppConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +182,7 @@
       <workItem from="1666586716373" duration="12344000" />
       <workItem from="1666663844734" duration="19146000" />
       <workItem from="1666764178907" duration="19934000" />
-      <workItem from="1667175631831" duration="27276000" />
+      <workItem from="1667175631831" duration="29015000" />
     </task>
     <servers />
   </component>
