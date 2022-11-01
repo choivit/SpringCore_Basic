@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8f69f8f7-41ba-4b8e-8361-73282646f5cd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/AutoAppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/AutoAppConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +24,7 @@
         <option value="Interface" />
         <option value="spring-beans.schema" />
         <option value="JUnit5 Test Class" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -64,8 +64,11 @@
       <recent name="hello.core.singleton" />
       <recent name="hello.core.discount" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hello.core.scan.filter" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.AutoAppConfigTest.basicScan">
+  <component name="RunManager" selected="JUnit.ComponentFilterAppConfigTest.filterScan">
     <configuration name="AutoAppConfigTest.basicScan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
@@ -77,6 +80,22 @@
       <option name="PACKAGE_NAME" value="hello.core.scan" />
       <option name="MAIN_CLASS_NAME" value="hello.core.scan.AutoAppConfigTest" />
       <option name="METHOD_NAME" value="basicScan" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComponentFilterAppConfigTest.filterScan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.scan.filter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.core.scan.filter" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.scan.filter.ComponentFilterAppConfigTest" />
+      <option name="METHOD_NAME" value="filterScan" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -114,22 +133,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonTest.springContainer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.core.singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hello.core.singleton" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.singleton.SingletonTest" />
-      <option name="METHOD_NAME" value="springContainer" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StatefulServiceTest.statefulServidcdSingleton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
@@ -155,19 +158,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.AutoAppConfigTest.basicScan" />
+      <item itemvalue="JUnit.ComponentFilterAppConfigTest.filterScan" />
       <item itemvalue="JUnit.ConfigurationSingletonTest.configurationDeep" />
       <item itemvalue="JUnit.ConfigurationSingletonTest.configurationTest" />
-      <item itemvalue="JUnit.SingletonTest.springContainer" />
       <item itemvalue="JUnit.StatefulServiceTest.statefulServidcdSingleton" />
       <item itemvalue="Spring Boot.CoreApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ComponentFilterAppConfigTest.filterScan" />
         <item itemvalue="JUnit.AutoAppConfigTest.basicScan" />
         <item itemvalue="JUnit.ConfigurationSingletonTest.configurationDeep" />
         <item itemvalue="JUnit.ConfigurationSingletonTest.configurationTest" />
         <item itemvalue="JUnit.StatefulServiceTest.statefulServidcdSingleton" />
-        <item itemvalue="JUnit.SingletonTest.springContainer" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +185,7 @@
       <workItem from="1666586716373" duration="12344000" />
       <workItem from="1666663844734" duration="19146000" />
       <workItem from="1666764178907" duration="19934000" />
-      <workItem from="1667175631831" duration="29015000" />
+      <workItem from="1667175631831" duration="30906000" />
     </task>
     <servers />
   </component>
