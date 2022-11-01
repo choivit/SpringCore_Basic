@@ -1,7 +1,6 @@
 package hello.core;
 
 import hello.core.discount.DiscountPolicy;
-import hello.core.discount.FixDiscountPolicy;
 import hello.core.discount.RateDiscountPolicy;
 import hello.core.member.MemberRepository;
 import hello.core.member.MemberService;
@@ -12,6 +11,7 @@ import hello.core.order.OrderServiceImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+//설정정보가 있는 곳에 Configuration을 넣으면 싱글톤이 보장된다.
 @Configuration
 public class AppConfig {
 
@@ -38,10 +38,13 @@ public class AppConfig {
     // call AppConfig.memberRepository
     // call AppConfig.orderService
     // call AppConfig.memberRepository
+
     // 실제 실행 시나리오
     // call AppConfig.memberService
     // call AppConfig.memberRepository
     // call AppConfig.orderService
+
+    //이런 현상은 위에 @Configuration 때문임.
 
     @Bean
     //memberService 역할
