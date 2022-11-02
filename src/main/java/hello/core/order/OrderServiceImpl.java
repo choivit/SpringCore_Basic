@@ -11,6 +11,9 @@ import org.springframework.stereotype.Component;
 @Component
 public class OrderServiceImpl implements OrderService{
 
+    //생성자 주입 방식을 선택하는 이유 중 가장 큰 이유는 프레임워크에 의존하지 않고 순수한 자바 언어의 특징을 잘 살리는 방법이기도 하기 때문
+    // 기본으로 생성자 주입을 사용하고 필수 값이 아닌 경우에는 수정자 주입 방식을 옵션으로 부여하면 됨. 생성자 주입과 수정자 주입을 동시에 사용 가능.
+    //항상 생성자 주입을 선택하고 가끔 옵션이 필요할 경우 수정자 주입을 선택하는 게 좋음. 필드 주입은 가급적 사용하지 않는 것이 좋음.
 //    ====================================================================================
     /*생성자 주입*/
     //    private final MemberRepository memberRepository = new MemoryMemberRepository();

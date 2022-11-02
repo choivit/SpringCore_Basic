@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8f69f8f7-41ba-4b8e-8361-73282646f5cd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/AutoAppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/AutoAppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/order/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/order/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hello/core/CoreApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hello/core/CoreApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hello/core/order/OrderServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hello/core/order/OrderServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/AppConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +24,9 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="spring-beans.schema" />
-        <option value="JUnit5 Test Class" />
         <option value="AnnotationType" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -69,6 +66,7 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="hello.core.order" />
       <recent name="hello.core.singleton" />
       <recent name="hello.core.discount" />
     </key>
@@ -76,15 +74,7 @@
       <recent name="hello.core.scan.filter" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.hello.core in core.test">
-    <configuration name="All in core.test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.OrderServiceImplTest.createOrder">
     <configuration name="All in core.test (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -101,7 +91,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderServiceTest.fieldInjectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderServiceImplTest.createOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
         <pattern>
@@ -110,8 +100,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="hello.core.order" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.order.OrderServiceTest" />
-      <option name="METHOD_NAME" value="fieldInjectionTest" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.order.OrderServiceImplTest" />
+      <option name="METHOD_NAME" value="createOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceImplTest.createorder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.core.order" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.order.OrderServiceImplTest" />
+      <option name="METHOD_NAME" value="createorder" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,20 +145,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.All in core.test (2)" />
       <item itemvalue="JUnit.All in core.test (3)" />
       <item itemvalue="JUnit.All in core.test (4)" />
-      <item itemvalue="JUnit.OrderServiceTest.fieldInjectionTest" />
+      <item itemvalue="JUnit.OrderServiceImplTest.createOrder" />
+      <item itemvalue="JUnit.OrderServiceImplTest.createorder" />
       <item itemvalue="JUnit.hello.core in core.test" />
       <item itemvalue="Spring Boot.CoreApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OrderServiceImplTest.createOrder" />
+        <item itemvalue="JUnit.OrderServiceImplTest.createorder" />
         <item itemvalue="JUnit.hello.core in core.test" />
         <item itemvalue="JUnit.All in core.test (4)" />
         <item itemvalue="JUnit.All in core.test (3)" />
-        <item itemvalue="JUnit.All in core.test (2)" />
-        <item itemvalue="JUnit.OrderServiceTest.fieldInjectionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +174,7 @@
       <workItem from="1666663844734" duration="19146000" />
       <workItem from="1666764178907" duration="19934000" />
       <workItem from="1667175631831" duration="35259000" />
-      <workItem from="1667368137538" duration="9690000" />
+      <workItem from="1667368137538" duration="11195000" />
     </task>
     <servers />
   </component>
