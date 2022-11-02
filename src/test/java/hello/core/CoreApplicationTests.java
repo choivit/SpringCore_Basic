@@ -9,8 +9,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 class CoreApplicationTests {
 
 	//테스트 코드는 나만 테스트하는데 쓰면 돼서 쓰는 경우도 종종!
-//	@Autowired
-//	OrderService orderService;
+	@Autowired
+	OrderService orderService;
 
 	@Test
 	void contextLoads() {

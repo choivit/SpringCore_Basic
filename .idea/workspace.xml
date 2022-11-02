@@ -6,10 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="8f69f8f7-41ba-4b8e-8361-73282646f5cd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/AutoAppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/AutoAppConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/order/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/order/OrderServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/hello/core/CoreApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hello/core/CoreApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/hello/core/order/OrderServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hello/core/order/OrderServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hello/core/scan/AutoAppConfigTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hello/core/scan/AutoAppConfigTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,82 +76,57 @@
       <recent name="hello.core.scan.filter" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AutoAppConfigTest">
-    <configuration name="AutoAppConfigTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.hello.core in core.test">
+    <configuration name="All in core.test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.core.scan.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hello.core.scan" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.scan.AutoAppConfigTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutoAppConfigTest.basicScan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in core.test (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in core.test (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceTest.fieldInjectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hello.core.scan.*" />
+          <option name="PATTERN" value="hello.core.order.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hello.core.scan" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.scan.AutoAppConfigTest" />
-      <option name="METHOD_NAME" value="basicScan" />
+      <option name="PACKAGE_NAME" value="hello.core.order" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.order.OrderServiceTest" />
+      <option name="METHOD_NAME" value="fieldInjectionTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComponentFilterAppConfigTest.filterScan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="hello.core in core.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hello.core.scan.filter.*" />
+          <option name="PATTERN" value="hello.core.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hello.core.scan.filter" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.scan.filter.ComponentFilterAppConfigTest" />
-      <option name="METHOD_NAME" value="filterScan" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConfigurationSingletonTest.configurationDeep" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.core.singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hello.core.singleton" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.singleton.ConfigurationSingletonTest" />
-      <option name="METHOD_NAME" value="configurationDeep" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConfigurationSingletonTest.configurationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.core.singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hello.core.singleton" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.singleton.ConfigurationSingletonTest" />
-      <option name="METHOD_NAME" value="configurationTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="hello.core" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -164,20 +139,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.AutoAppConfigTest" />
-      <item itemvalue="JUnit.AutoAppConfigTest.basicScan" />
-      <item itemvalue="JUnit.ComponentFilterAppConfigTest.filterScan" />
-      <item itemvalue="JUnit.ConfigurationSingletonTest.configurationDeep" />
-      <item itemvalue="JUnit.ConfigurationSingletonTest.configurationTest" />
+      <item itemvalue="JUnit.All in core.test (2)" />
+      <item itemvalue="JUnit.All in core.test (3)" />
+      <item itemvalue="JUnit.All in core.test (4)" />
+      <item itemvalue="JUnit.OrderServiceTest.fieldInjectionTest" />
+      <item itemvalue="JUnit.hello.core in core.test" />
       <item itemvalue="Spring Boot.CoreApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AutoAppConfigTest" />
-        <item itemvalue="JUnit.AutoAppConfigTest.basicScan" />
-        <item itemvalue="JUnit.ComponentFilterAppConfigTest.filterScan" />
-        <item itemvalue="JUnit.ConfigurationSingletonTest.configurationDeep" />
-        <item itemvalue="JUnit.ConfigurationSingletonTest.configurationTest" />
+        <item itemvalue="JUnit.hello.core in core.test" />
+        <item itemvalue="JUnit.All in core.test (4)" />
+        <item itemvalue="JUnit.All in core.test (3)" />
+        <item itemvalue="JUnit.All in core.test (2)" />
+        <item itemvalue="JUnit.OrderServiceTest.fieldInjectionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +168,7 @@
       <workItem from="1666663844734" duration="19146000" />
       <workItem from="1666764178907" duration="19934000" />
       <workItem from="1667175631831" duration="35259000" />
-      <workItem from="1667368137538" duration="5021000" />
+      <workItem from="1667368137538" duration="9690000" />
     </task>
     <servers />
   </component>

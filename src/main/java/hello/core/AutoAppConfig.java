@@ -24,8 +24,9 @@ import org.springframework.context.annotation.FilterType;
 
 public class AutoAppConfig {
 
-    @Bean(name = "memoryMemberRepository")
-    MemberRepository memberRepository(){
-        return new MemoryMemberRepository();
-    }
+    //ComponentScan이 자동으로 등록해 놓은 빈을 수동으로 또 등록을 하다보니 충돌이 발생한 것으로 보여짐.
+//    @Bean(name = "memoryMemberRepository")
+//    MemberRepository memberRepository(){
+//        return new MemoryMemberRepository();
+//    }
 }
