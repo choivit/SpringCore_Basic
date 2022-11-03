@@ -1,5 +1,6 @@
 package hello.core.order;
 
+import hello.core.annotation.MainDiscountPolicy;
 import hello.core.discount.DiscountPolicy;
 import hello.core.discount.RateDiscountPolicy;
 import hello.core.member.Member;
@@ -38,12 +39,12 @@ public class OrderServiceImpl implements OrderService{
 //    }
 //
     @Autowired //생성자가 하나일때 생략가능
-    // @Autowired의 특이점을 빈이 여러개일 경우 파라미터나 필드의 변수명을 찾아서 매칭해줌.
+    // @Autowired의 특이점은 빈이 여러개일 경우 파라미터나 필드의 변수명을 찾아서 매칭해줌.
     // 1. 타입 매칭
     // 2. 타입 매칭의 결과가 2개 이상일 때 필드 명으로 빈 이름 매칭
 //    public OrderServiceImpl(MemberRepository memberRepository, @Qualifier("mainDiscountPolicy") DiscountPolicy rateDiscountPolicy) {
     // 스프링은 자동보다는 수동이 우선순위기 때문에 자동인 @Primary 보다는 섬세하게 수동으로 지정을 해준 @Qualifier가 우선순위다.
-    public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy rateDiscountPolicy) {
+    public OrderServiceImpl(MemberRepository memberRepository, @MainDiscountPolicy DiscountPolicy rateDiscountPolicy) {
         this.memberRepository = memberRepository;
         this.discountPolicy = rateDiscountPolicy;
     }

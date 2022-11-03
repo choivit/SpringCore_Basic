@@ -1,5 +1,6 @@
 package hello.core.discount;
 
+import hello.core.annotation.MainDiscountPolicy;
 import hello.core.member.Grade;
 import hello.core.member.Member;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -13,6 +14,7 @@ import org.springframework.stereotype.Component;
 // 1. @Qualifier끼리 매칭
 // 2. 빈 이름 매칭
 // 3. NoSuchBeanDefinitionException 예외 발생
+@MainDiscountPolicy
 public class RateDiscountPolicy implements DiscountPolicy{
 
     private int dicountPercent = 10;
