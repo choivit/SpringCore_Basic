@@ -1,4 +1,4 @@
-package hello.core.lifeCycle;
+package hello.core.lifecycle;
 
 public class NetworkClient {
 
