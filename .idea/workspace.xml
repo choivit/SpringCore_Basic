@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8f69f8f7-41ba-4b8e-8361-73282646f5cd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hello/core/lifeCycle/NetworkClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hello/core/lifecycle/NetworkClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/core/lifecycle/BeanLifeCycleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hello/core/lifecycle/BeanLifeCycleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +17,18 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -37,30 +49,31 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2GZCRw9d7kRiXtn4xugoogfIKhF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "extract.method.default.visibility": "private",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "power.mode.ii",
-    "spring.configuration.checksum": "1d2dfe7cbec4cb85764de7dce500cd05"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;power.mode.ii&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;1d2dfe7cbec4cb85764de7dce500cd05&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -74,14 +87,52 @@
       <recent name="hello.core.scan.filter" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AllBeanTest.findAllBean">
-    <configuration name="All in core.test (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager" selected="Gradle.BeanLifeCycleTest">
+    <configuration name="BeanLifeCycleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hello.core.lifecycle.BeanLifeCycleTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="BeanLifeCycleTest.lifeCycleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hello.core.lifecycle.BeanLifeCycleTest.lifeCycleTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="AllBeanTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
@@ -99,21 +150,6 @@
       </method>
     </configuration>
     <configuration name="AllBeanTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.core.autoWiredTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hello.core.autoWiredTest" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.autoWiredTest.AllBeanTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AllBeanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
         <pattern>
@@ -152,8 +188,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.All in core.test (4)" />
-      <item itemvalue="JUnit.AllBeanTest" />
+      <item itemvalue="Gradle.BeanLifeCycleTest" />
+      <item itemvalue="Gradle.BeanLifeCycleTest.lifeCycleTest" />
       <item itemvalue="JUnit.AllBeanTest (1)" />
       <item itemvalue="JUnit.AllBeanTest (2)" />
       <item itemvalue="JUnit.AllBeanTest.findAllBean" />
@@ -161,11 +197,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BeanLifeCycleTest" />
+        <item itemvalue="Gradle.BeanLifeCycleTest.lifeCycleTest" />
         <item itemvalue="JUnit.AllBeanTest.findAllBean" />
         <item itemvalue="JUnit.AllBeanTest (2)" />
         <item itemvalue="JUnit.AllBeanTest (1)" />
-        <item itemvalue="JUnit.AllBeanTest" />
-        <item itemvalue="JUnit.All in core.test (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -183,6 +219,7 @@
       <workItem from="1667175631831" duration="35259000" />
       <workItem from="1667368137538" duration="27573000" />
       <workItem from="1667546022105" duration="2213000" />
+      <workItem from="1667627422984" duration="1789000" />
     </task>
     <servers />
   </component>
