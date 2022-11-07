@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8f69f8f7-41ba-4b8e-8361-73282646f5cd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hello/core/lifecycle/BeanLifeCycleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hello/core/lifecycle/BeanLifeCycleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/core/lifecycle/NetworkClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hello/core/lifecycle/NetworkClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +87,7 @@
       <recent name="hello.core.scan.filter" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BeanLifeCycleTest">
+  <component name="RunManager" selected="JUnit.BeanLifeCycleTest.lifeCycleTest">
     <configuration name="BeanLifeCycleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -134,36 +134,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="AllBeanTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.core.autoWiredTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hello.core.autoWiredTest" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.autoWiredTest.AllBeanTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AllBeanTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.core.autoWiredTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hello.core.autoWiredTest" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.autoWiredTest.AllBeanTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AllBeanTest.findAllBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
@@ -180,6 +150,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BeanLifeCycleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.lifecycle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.core.lifecycle" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.lifecycle.BeanLifeCycleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeanLifeCycleTest.lifeCycleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.lifecycle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.core.lifecycle" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.lifecycle.BeanLifeCycleTest" />
+      <option name="METHOD_NAME" value="lifeCycleTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="core.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="hello.core.CoreApplication" />
@@ -190,18 +191,18 @@
     <list>
       <item itemvalue="Gradle.BeanLifeCycleTest" />
       <item itemvalue="Gradle.BeanLifeCycleTest.lifeCycleTest" />
-      <item itemvalue="JUnit.AllBeanTest (1)" />
-      <item itemvalue="JUnit.AllBeanTest (2)" />
+      <item itemvalue="JUnit.BeanLifeCycleTest" />
+      <item itemvalue="JUnit.BeanLifeCycleTest.lifeCycleTest" />
       <item itemvalue="JUnit.AllBeanTest.findAllBean" />
       <item itemvalue="Spring Boot.CoreApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BeanLifeCycleTest.lifeCycleTest" />
+        <item itemvalue="JUnit.BeanLifeCycleTest" />
         <item itemvalue="Gradle.BeanLifeCycleTest" />
         <item itemvalue="Gradle.BeanLifeCycleTest.lifeCycleTest" />
         <item itemvalue="JUnit.AllBeanTest.findAllBean" />
-        <item itemvalue="JUnit.AllBeanTest (2)" />
-        <item itemvalue="JUnit.AllBeanTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +232,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
