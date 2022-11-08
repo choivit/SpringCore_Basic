@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8f69f8f7-41ba-4b8e-8361-73282646f5cd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +81,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="hello.core.web" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -93,16 +98,18 @@
       <recent name="hello.core.scan.filter" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SingletonWithPrototypeTest1_2.singletonClientUserPrototype">
-    <configuration name="NetworkClient2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hello.core.lifecycle.NetworkClient2" />
+  <component name="RunManager" selected="Spring Boot.CoreApplication">
+    <configuration name="CoreApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hello.core.lifecycle.*" />
+          <option name="PATTERN" value="hello.core.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="hello.core" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.CoreApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -178,7 +185,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.NetworkClient2" />
+      <item itemvalue="JUnit.CoreApplicationTests" />
       <item itemvalue="JUnit.PrototypeTest" />
       <item itemvalue="JUnit.SingletonTest.singletonBeanFind" />
       <item itemvalue="JUnit.SingletonWithPrototypeTest1.singletonClientUserPrototype" />
@@ -187,11 +194,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CoreApplicationTests" />
         <item itemvalue="JUnit.SingletonWithPrototypeTest1_2.singletonClientUserPrototype" />
         <item itemvalue="JUnit.SingletonWithPrototypeTest1.singletonClientUserPrototype" />
         <item itemvalue="JUnit.PrototypeTest" />
         <item itemvalue="JUnit.SingletonTest.singletonBeanFind" />
-        <item itemvalue="Application.NetworkClient2" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +217,7 @@
       <workItem from="1667368137538" duration="27573000" />
       <workItem from="1667546022105" duration="2213000" />
       <workItem from="1667627422984" duration="1789000" />
-      <workItem from="1667868571049" duration="11131000" />
+      <workItem from="1667868571049" duration="17919000" />
     </task>
     <servers />
   </component>
