@@ -12,7 +12,8 @@ public class BeanLifeCycleTest {
     public void lifeCycleTest(){
         ConfigurableApplicationContext ac = new AnnotationConfigApplicationContext(LifeCycleConfig.class);
 //        NetworkClient client = ac.getBean(NetworkClient.class);
-        NetworkClient1 client = ac.getBean(NetworkClient1.class);
+//        NetworkClient1 client = ac.getBean(NetworkClient1.class);
+        NetworkClient2 client = ac.getBean(NetworkClient2.class);
         ac.close();
         //이전과는 다르게 close를 적용해볼건데
         // 상단에 AnnotationConfigApplicationContext의 정의방법으로 ApplicationContext는 close를 사용할 수 없음.
@@ -26,9 +27,10 @@ public class BeanLifeCycleTest {
         //종료를 하고싶지 않다면 'destroyMethod = ""' 처럼 빈 공백으로 등록을 해주면 된다.
         @Bean(initMethod = "init", destroyMethod = "close")
 //        public NetworkClient networkClient(){
-        public NetworkClient1 networkClient(){
+        public NetworkClient2 networkClient(){
 //            NetworkClient networkClient = new NetworkClient();
-            NetworkClient1 networkClient = new NetworkClient1();
+//            NetworkClient1 networkClient = new NetworkClient1();
+            NetworkClient2 networkClient = new NetworkClient2();
             networkClient.setUrl("http://hello-spring.dev");
             return networkClient;
         }
