@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="8f69f8f7-41ba-4b8e-8361-73282646f5cd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/common/MyLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/common/MyLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/web/LogDemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/web/LogDemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/web/LogDemoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/web/LogDemoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/core/scope/SingletonWithPrototypeTest1_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hello/core/scope/SingletonWithPrototypeTest1_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +219,7 @@
       <workItem from="1667368137538" duration="27573000" />
       <workItem from="1667546022105" duration="2213000" />
       <workItem from="1667627422984" duration="1789000" />
-      <workItem from="1667868571049" duration="17919000" />
+      <workItem from="1667868571049" duration="20658000" />
     </task>
     <servers />
   </component>

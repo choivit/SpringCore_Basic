@@ -52,7 +52,7 @@ public class SingletonWithPrototypeTest1_2 {
         // prototypeBeanProvider.getObject를 호출하면 그때 스프링 컨테이너에서 프로토타입 빈을 찾아서 호출해줌.
 
         public int logic(){
-//            PrototypeBean prototypeBean = prototypeBeanProvider.getObject();
+//            PrototypeBean prot otypeBean = prototypeBeanProvider.getObject();
             PrototypeBean prototypeBean = prototypeBeanProvider.get();
             prototypeBean.addCount();
             return prototypeBean.getCount();
